@@ -1,4 +1,4 @@
-# Test
+# nppKoreanCharsetCheck
 NotePad++에 Plug-In을 Korean Charset Check하는 것을 만들어 올리고, Git을 처음 작성해 보고 있다.
 
 - EUC-KR (행망코드)
