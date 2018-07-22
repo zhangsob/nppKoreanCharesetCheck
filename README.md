@@ -18,3 +18,6 @@ NotePad++에 Plug-In을 Korean Charset Check하는 것을 만들어 올리고, G
 1. [nppKoreanCharsetCheck.dll](./bin/nppKoreanCharsetCheck.dll)을 다운받는다.
 2. nppKoreanCharsetCheck.dll화일을 C:\Program Files (x86)\Notepad++\plugins에 넣는다.
    (만일, x64이면 [nppKoreanCharsetCheck.dll](./bin64/nppKoreanCharsetCheck.dll)을 다운받는다.)
+   
+NotePad++에서 EUC-KR로 되어 있는 (즉, .c) 화일을 제대로(즉, Ansi)로 인식하지 못하고, Default인 UTF-8처리하는 경우가 발생한다.
+위 Bug를 Fix를 하려면 NotePad++에 소스를 어떻게 구하여, 수정요청 아니, 본인이 수정해 보고 싶다. 방법을 알려 주세요.(E-mail로)
