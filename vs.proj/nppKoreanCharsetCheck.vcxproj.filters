@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\DockingFeature\GoToLineDlg.cpp" />
+    <ClCompile Include="..\src\DockingFeature\StaticDialog.cpp" />
+    <ClCompile Include="..\src\PluginDefinition.cpp" />
+    <ClCompile Include="..\src\nppKoreanCharsetCheck.cpp" />
+    <ClCompile Include="..\src\KoreanCharsetCheck\ZNpp.cpp">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KoreanCharsetCheck\ZTextFile.cpp">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KoreanCharsetCheck\ZTextLineFile.cpp">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KoreanCharsetCheck\zutil.cpp">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\DockingFeature\Docking.h" />
+    <ClInclude Include="..\src\DockingFeature\DockingDlgInterface.h" />
+    <ClInclude Include="..\src\DockingFeature\dockingResource.h" />
+    <ClInclude Include="..\src\DockingFeature\GoToLineDlg.h" />
+    <ClInclude Include="..\src\DockingFeature\resource.h" />
+    <ClInclude Include="..\src\DockingFeature\StaticDialog.h" />
+    <ClInclude Include="..\src\DockingFeature\Window.h" />
+    <ClInclude Include="..\src\menuCmdID.h" />
+    <ClInclude Include="..\src\Notepad_plus_msgs.h" />
+    <ClInclude Include="..\src\PluginDefinition.h" />
+    <ClInclude Include="..\src\PluginInterface.h" />
+    <ClInclude Include="..\src\Scintilla.h" />
+    <ClInclude Include="..\src\KoreanCharsetCheck\ZNpp.h">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KoreanCharsetCheck\ZTextFile.h">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KoreanCharsetCheck\ZTextLineFile.h">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KoreanCharsetCheck\zutil.h">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KoreanCharsetCheck\version.h">
+      <Filter>KoreanCharsetCheck</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\DockingFeature\goLine.rc" />
+    <ResourceCompile Include="..\src\nppKoreanCharsetCheck.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="KoreanCharsetCheck">
+      <UniqueIdentifier>{7a388463-2fe9-4457-8576-457a15a357e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
